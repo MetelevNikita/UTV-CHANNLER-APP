@@ -1,0 +1,53 @@
+.header-menu-title {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+
+  transition: 0.05s all ease;
+}
+
+/*  */
+
+.header-serach-input {
+  margin-left: -40px;
+  display: flex;
+  align-items: center;
+
+}
+
+.header-search-icon {
+  margin-left: -40px;
+  border: none;
+}
+
+.header-search-text {
+
+  background-color: #F5F5F5;
+  border: none;
+  border-radius: 10px;
+  width: 374px;
+  height: 52px;
+  outline: none;
+
+
+
+  font-size: 17px;
+  padding-left: 10px;
+}
+
+
+
+
+
+/* animation */
+
+.header-menu-title:hover {
+  color: #f35f1f;
+}
+
+.header-menu-title:active {
+  transform: scale(1.05);
+}
+

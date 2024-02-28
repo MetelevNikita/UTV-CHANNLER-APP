@@ -1,0 +1,31 @@
+.card-container {
+  max-width: 374px;
+  margin-right: 20px;
+
+}
+
+.card-img {
+  width: 374px;
+}
+
+.card-title {
+  font-weight: 600;
+  font-size: 20px;
+  color: #000000;
+}
+
+.card-subtitle {
+  font-weight: 200;
+  font-size: 17px;
+  color: #878787;
+}
+
+
+
+
+/* animation */
+
+.card-img:hover {
+  transform:  scale(1.05);
+  transition: ease-in-out 0.05s all;
+}
